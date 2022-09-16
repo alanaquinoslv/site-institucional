@@ -7,11 +7,11 @@ body {
 .header {
     color: blue;
     border-bottom: solid 3px #32b9cd;
-    border: solid 3px green;
+    /* border: solid 3px green; */
 }
 
 .container {
-    border: solid 3px yellow;
+    
     width: 80%;
     margin: auto;
 
@@ -24,10 +24,6 @@ h1 {
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 25px; */
-}
-
-ul {
-    border: solid 3px red;
 }
 
 .header .container {
@@ -44,6 +40,71 @@ ul {
     align-items: center;
 }
 
-li {
-    border: solid 3px cadetblue
+.banner {
+    /* border: solid 3px pink; */
+    color: white;
+    padding: 40px 0;
+    height: 400px;
+    background-image: url("Acquatec/assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
 }
+
+.banner .container{
+    /* border: solid 3px green; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p{
+    /* border: solid 3px red; */
+    font-size: 30px; 
+    width: 200px;   
+}
+
+.banner .container span{
+    font-weight: 800;
+}
+
+.social{
+    /* border: solid 3px brown; */
+    background-color: #e5e5e5;
+}
+
+.box img{
+    width: 170px;
+}
+
+/* .social .container{
+    border: solid 3px yellowgreen;
+} */
+
+.social .container .boxes{
+display: flex;
+}
+.box{
+    margin: 50px 10px 10px 10px;
+    /* border: solid 3px chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    text-align: center;
+}
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
+    display: flex;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+
